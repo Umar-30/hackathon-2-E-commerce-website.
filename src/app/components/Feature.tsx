@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const Feature = () => {
   return (
@@ -7,7 +8,7 @@ const Feature = () => {
         <div className="text-[23px] font-medium leading-[28px] pt-3">
           Featured
         </div>
-        <img src="/image/shoes/Image (5).svg" className="w-full" />
+        <Image src="/image/shoes/Image (5).svg" alt="full screen image" width={1700} height={700} />
         <div className="w-full pt-6">
           <div className="font-medium  text-[24px] md:text-[54px] flex items-center justify-center">
             STEP INTO WHAT FEELS GOOD

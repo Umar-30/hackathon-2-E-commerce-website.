@@ -20,7 +20,7 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         <SiNike className=" size-16" />
         <div className="hidden md:flex gap-4 ">
-          <Link href={"#"} className="text-[18px] font-normal">
+          <Link href={"/product"} className="text-[18px] font-normal">
             New & Featured
           </Link>
           <Link href={"#"} className="text-[18px] font-normal">

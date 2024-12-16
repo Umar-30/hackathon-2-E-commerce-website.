@@ -5,11 +5,11 @@ const Donotmiss = () => {
   return (
     <div className="w-full mx-auto">
       <div className="text-[25px] font-medium leading-[28px] pb-5">
-        Don't Miss
+        Don&apos;t Miss
       </div>
       <div className="w-full ">
-        <img src="/image/Image (10).svg" className="w-full" />
-      </div>
+        <Image src="/image/Image (10).svg" alt="full screen image" height={700} width={1700}/>
+          </div>
       <div className="w-full left-[168px]">
         <div className="flex justify-center items-center pt-5 font-medium text-[52px]">
           FLIGHT ESSENTIALS
@@ -36,7 +36,7 @@ const Donotmiss = () => {
           width={540}
         />
         <Image
-          src={"/image/men,women/Image (11).svg"}
+          src={"/image/Frame (3).svg"}
           alt="image 2"
           height={540}
           width={540}
@@ -76,11 +76,11 @@ const Donotmiss = () => {
           </div>
           {/* 4 */}
           <div className="w-[184px] space-y-6 ">
-            <h1 className="font-bold text-[20px]">Kids'</h1>
+            <h1 className="font-bold text-[20px]">Kids&aspo;</h1>
             <p>Infant & Toddler Shoes</p>
-            <p>Kids' Shoes</p>
-            <p>kids' Jordan Shoes</p>
-            <p>Kids' Basketball Shoes</p>
+            <p>Kids&aspo; Shoes</p>
+            <p>kids&aspo; Jordan Shoes</p>
+            <p>Kids&aspo; Basketball Shoes</p>
           </div>
         </div>
       </div>

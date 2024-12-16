@@ -11,7 +11,7 @@ const Gearup = () => {
         <div className="w-1/2 ">
           {/* Aerrow */}
           <div className="flex gap-4 justify-end mr-[104px]">
-            <div className="mt-3 ">Shop Men's</div>
+            <div className="mt-3 ">Shop Men&apos;s</div>
             <div className="w-[46px] h-[46px] bg-neutral-100 rounded-full flex justify-center items-center cursor-pointer">
               <ArrowLeft className="text-black" />
             </div>
@@ -34,7 +34,7 @@ const Gearup = () => {
                   Nike Dri-FIT Challenger
                   <br />
                   <span className="text-[#757575] text-sm">
-                    Men's Short-Sleeve <br />
+                    Men&apos;s Short-Sleeve <br />
                     Running Top
                   </span>
                 </div>
@@ -53,7 +53,7 @@ const Gearup = () => {
                 <div className="text-[15px] font-semibold ">
                   Nike Air Max Pulse <br />
                   <span className="text-[#757575] text-sm">
-                    Men's 18cm (approx.) 2-in-1
+                    Men&apos;s 18cm (approx.) 2-in-1
                     <br /> Versatile Shorts
                   </span>
                 </div>
@@ -66,7 +66,7 @@ const Gearup = () => {
         <div className="w-1/2 mx-auto">
           {/* Aerrow */}
           <div className="flex gap-4 justify-end mr-[104px] ">
-            <div className="mt-3 ">Shop Women's</div>
+            <div className="mt-3 ">Shop Women&apos;s</div>
             <div className="w-[46px] bg-neutral-100 rounded-full flex justify-center items-center cursor-pointer">
               <ArrowLeft className="text-black" />
             </div>
@@ -89,7 +89,7 @@ const Gearup = () => {
                   Nike Dri-FIT ADV Run Division
                   <br />
                   <span className="text-[#757575] text-">
-                    Women's Long-Sleeve
+                    Women&aops;s Long-Sleeve
                     <br /> Running Top
                   </span>
                 </div>
@@ -108,7 +108,7 @@ const Gearup = () => {
                 <div className="text-[15px] font-semibold ">
                   Nike Fast <br />
                   <span className="text-[#757575] text-">
-                    Women's Mid-Rise 7/8 Running <br />
+                    Women&apos;s Mid-Rise 7/8 Running <br />
                     Leggings with Pockets
                   </span>
                 </div>

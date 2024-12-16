@@ -5,7 +5,7 @@ import { ArrowLeft, ArrowRight } from "lucide-react";
 const Shoes = () => {
   return (
     <div className="w-full mx-auto">
-      <div className="h-[52px] max-w-full flex justify-between  p-4 mb-6">
+      <div className="h-[52px] max-w-full flex justify-between p-4 mb-6">
         <div className="text-[25px]">Best of Air Max</div>
         <div>
           {/* Aerrow div */}
@@ -22,9 +22,9 @@ const Shoes = () => {
       </div>
       {/* card div */}
       <div className=" container max-w-7xl mx-auto w-full ">
-        <div className="flex flex-wrap justify-center items-center md:justify-between">
+        <div className="flex flex-wrap justify-center items-center md:justify-between ">
           {/* 1 */}
-          <div className="w-full  md:w-1/3 p-2 ">
+          <div className="w-full sm:w-1/2 md:w-1/3 p-2 ">
             <Image
               src={"/image/shoes/Image (1).svg"}
               alt="shoes imsge"
@@ -33,14 +33,14 @@ const Shoes = () => {
             />
             <div className="h-[48px] w-full pt-6 flex justify-between">
               <div className="text-[15px] font-semibold ">
-                Nike Air Max Pulse <br />
-                <span className="text-[#757575] text-">Men's Shoes</span>
+                Nike Air Max Pulse <br/>
+                <div className="text-[#757575]">Men&apos;s Shoes</div>
               </div>
               <div className="text-sm font-semibold">₹ 13 995</div>
             </div>
           </div>
           {/* 2 */}
-          <div className="w-full md:w-1/3 p-2">
+          <div className="w-full sm:w-1/2 md:w-1/3 p-2">
             <Image
               src={"/image/shoes/Image (2).svg"}
               alt="shoes imsge"
@@ -50,13 +50,13 @@ const Shoes = () => {
             <div className="h-[48px] w-full pt-6 flex justify-between">
               <div className="text-[15px] font-semibold  ">
                 Nike Air Max Pulse <br />
-                <span className="text-[#757575] text-">Men's Shoes</span>
+                <div className="text-[#757575]">Men&apos;s Shoes</div>
               </div>
               <div className="text-sm font-semibold">₹ 13 995</div>
             </div>
           </div>
           {/* 3 */}
-          <div className="w-full md:w-1/3 p-2">
+          <div className="w-full sm:w-1/2 md:w-1/3 p-2">
             <Image
               src={"/image/shoes/Image (3).svg"}
               alt="shoes imsge"
@@ -67,7 +67,7 @@ const Shoes = () => {
               <div className="text-[15px] font-semibold  ">
                 Nike Air Max 97 SE
                 <br />
-                <span className="text-[#757575] text-">Men's Shoes</span>
+                <div className="text-[#757575] text-">Men&apos;s Shoes</div>
               </div>
               <div className="text-sm font-semibold">₹ 16 995</div>
             </div>

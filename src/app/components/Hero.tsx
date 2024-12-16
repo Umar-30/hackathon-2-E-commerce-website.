@@ -1,12 +1,13 @@
 import React from "react";
+import Image from "next/image";
 
 const Hero = () => {
   return (
     <div className="w-full">
       <div className="max-w-full mx-auto ">
-        <img src="/image/Image.shoe.svg" className="w-full" />
+        <Image src="/image/Image.shoe.svg" alt="full screen image" width={1700} height={700} />
       </div>
-      {/* iImage bottom  */}
+      {/* image bottom  */}
       <div className="w-full h-[229px] mx-auto">
         <div className="flex justify-center items-center text-[16px] leading-6 mt-8 ">
           First Look
